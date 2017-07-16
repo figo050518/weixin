@@ -1,0 +1,60 @@
+<!--mine.wxml-->
+<view class="container">
+  <view class="myHome">
+    <view class="my_pic" style="background:url('{{pic}}') no-repeat;background-size:100% 100%"></view>
+    <view class="my_name">王梦龙教练</view>
+    <view class="font_edit">编辑</view>
+    <view class="font_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%"></view>
+  </view>
+
+  <view class="my_box">
+    <view class="up">
+      <view class="per_pic" style="background:url('../images/my_stu.png') no-repeat;background-size:100% 100%"></view>
+      <view class="per_name">我的会员</view>
+      <view class="font_port">去开通</view>
+      <view class="per_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%"></view>
+    </view>
+    <view class="down">
+      <view class="per_pic" style="background:url('../images/poster.png') no-repeat;background-size:100% 100%"></view>
+      <view class="per_name">招生海报</view>
+      <view class="per_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%;margin-left:auto"></view>
+    </view>
+  </view>
+
+  <view class="my_box">
+    <view class="up">
+      <view class="per_pic" style="background:url('../images/my_class.png') no-repeat;background-size:100% 100%"></view>
+      <view class="per_name">我的班型</view>
+      <view class="per_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%;margin-left:auto"></view>
+    </view>
+    <view class="down">
+      <view class="per_pic" style="background:url('../images/my_pic.png') no-repeat;background-size:100% 100%"></view>
+      <view class="per_name">我的相册</view>
+      <view class="per_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%;margin-left:auto"></view>
+    </view>
+  </view>
+
+   <view class="my_box">
+    <view class="up">
+      <view class="per_pic" style="background:url('../images/about.png') no-repeat;background-size:100% 100%"></view>
+      <view class="per_name">关于我们</view>
+      <view class="per_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%;margin-left:auto"></view>
+    </view>
+    <view class="down">
+      <view class="per_pic" style="background:url('../images/sug.png') no-repeat;background-size:100% 100%"></view>
+      <view class="per_name">意见反馈</view>
+      <view class="per_to" style="background:url('../images/arrow_right.png') no-repeat;background-size:100% 100%;margin-left:auto"></view>
+    </view>
+  </view>
+  
+  <view class="bottom_nav">
+    <view class="bottom_nav_left">
+      <view class="bottom_nav_left_pic"><image src="../images/car.png" class="nav_img"></image></view>
+      <view class="bottom_nav_left_font">教练秀场</view>
+    </view>
+    <view class="bottom_nav_right" bindtap="btn_mine">
+      <view class="bottom_nav_left_pic"><image src="../images/user.png" class="nav_img"></image></view>
+      <view class="bottom_nav_left_font">我的</view>
+    </view>
+  </view>
+</view>

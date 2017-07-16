@@ -1,0 +1,39 @@
+<view class="container">
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <scroll-view scroll-x class="scroll-view_H">
+    <view wx:for="{{labs}}" bindtap="btn_tab" data-id="{{item.id}}" class="{{activeId == item.id?'scroll-view-item_H active' : 'scroll-view-item_H'}}">{{item.name}}</view> 
+  </scroll-view>
+
+<view class="userList">
+  <view class="box">
+    <view class="userInfo" wx:for="{{userList}}">
+      <view class="userPic" bindtap="previewImage" style="background:url({{item.url}}) no-repeat;background-size:100% 100%"></view>
+      <view class="userData">
+        <view class="user_name">{{item.name}}</view>
+        <view class="user_score">{{item.score}}</view>
+        <view class="user_like_pic" style="background:url('../images/like.png') no-repeat;background-size:100% 100%"></view>
+        <view class="user_like">{{item.like}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="bottom_nav">
+  <view class="bottom_nav_left">
+    <view class="bottom_nav_left_pic"><image src="../images/car.png" class="nav_img"></image></view>
+    <view class="bottom_nav_left_font">教练秀场</view>
+  </view>
+  <view class="bottom_nav_right" bindtap="btn_mine">
+    <view class="bottom_nav_left_pic"><image src="../images/user.png" class="nav_img"></image></view>
+    <view class="bottom_nav_left_font">我的</view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,162 @@
+/* mine.wxss */
+.myHome {
+  height: 120rpx;
+  margin-top: 30rpx; 
+  margin-bottom: 10rpx;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.my_pic {
+  width: 120rpx;
+  height: 120rpx;
+  display: inline-block;
+  margin-top: -20rpx; 
+  margin-left: 20rpx; 
+}
+
+.my_name {
+  display: inline-block;
+  height: 120rpx;
+  line-height: 120rpx;
+  margin-left: 10rpx;
+  font-family: PingFangSC;
+  font-size: 34rpx;
+  color: #3f4047;
+}
+
+.font_edit {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 15rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-family: PingFangSC;
+  font-size: 24rpx;
+  color: #999999;
+}
+
+.font_to {
+  height: 24rpx;
+  width: 15rpx;
+  display: inline-block;
+  margin-right: 30rpx;
+  margin-top: 48rpx;
+}
+
+.my_box {
+  margin-top: 20rpx; 
+  height: 180rpx;
+  background: #ffffff;
+}
+
+.up {
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+
+.per_pic {
+  width: 28rpx;
+  height: 28rpx;
+  display: inline-block;
+  margin-top: 31rpx; 
+  margin-left: 30rpx; 
+}
+
+.per_name {
+  display: inline-block;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-left: 10rpx;
+  font-family: PingFangSC;
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.font_port {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 15rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-family: PingFangSC;
+  font-size: 24rpx;
+  color: #7db6f1;
+}
+
+.per_to {
+  height: 24rpx;
+  width: 15rpx;
+  display: inline-block;
+  margin-right: 30rpx;
+  margin-top: 33rpx;
+}
+
+.down {
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_nav {
+  height: 98rpx;
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_nav_left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 98rpx;
+  border-right: 1rpx solid #f7f8fd;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 20rpx;
+}
+
+.bottom_nav_right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 98rpx;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 20rpx;
+}
+
+.bottom_nav_left_pic {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.bottom_nav_left_font {
+  height: 30rpx;
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #7ac9fc;
+}
+
+.bottom_nav_right_pic {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.bottom_nav_right_font {
+  height: 30rpx;
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #7ac9fc;
+}
+
+.nav_img {
+  width: 100%;
+  height: 100%;
+}
